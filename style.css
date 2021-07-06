@@ -3,25 +3,131 @@ body{
     color:black;
     background-image: url(Images/background_header.jpeg);
     background-repeat: no-repeat;
-    background-size: 100% 40%;
-    background-attachment:scroll;
+    background-size: 100% 30%;
+    margin: 0%;
+    
     
 }
 .Heading{
-    color:black;
-    padding-top: 30%;
-    padding-left: 150%;
+    color: white;
+    font-size: 300%;
+    width:300% ;
+    padding-top: 35%;
+    padding-left: 70%;
 }
-section{
+
+.Box-Margin{
+    padding: 2px 20px ;
+    border: solid white;
+    
+}
+.Flexible-Container{
     display: flex;
+
+}
+.Slogan{
+    font-weight: 900;
+    font-size: 300%;
+}
+.Green{
+    color:limegreen;
 }
 .First-Text{
- color: chartreuse;
+ color: black;
+ font-weight: 900;
+ width: 60%;
  padding-top: 50%;
- padding left: 
+ 
+ 
+ 
 }
 .First-Text img{
-    height: 95%;
-    width: 75% ;
+    width: 70% ;
    
 }
+.Button{
+    text-decoration: none;
+    background-image: linear-gradient(forestgreen,lime);
+    color: ghostwhite;
+    font-weight: 700;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+.About{
+    margin-top: 160px;
+    background-image: url(Images/background_middle.jpeg);
+    background-size: 100%, 2% ;
+    background-repeat: no-repeat;
+}
+.Second{
+    color: black;
+ font-weight: 900;
+ width: 60%;
+}
+.Second img{
+    width: 70% ;
+}
+.Recipe-colour{
+    color:tomato;
+}
+.Recipes{
+    margin-top: 100px;
+    margin-bottom: 6%;
+   
+}
+.Recipe-font{
+    text-align: center;
+    font-weight: 700;
+    font-size: 300%;
+}
+
+.Recipe-Item{    
+    
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-left: 25px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 20px;
+    text-align: left;
+}
+
+.Recipe-Item img{
+    padding-top: 10%;
+    padding-left:5%;
+    
+    height: 50%;
+    width: 80%;
+}
+.Bottom{
+    margin-left: 8%;
+    margin-right: 8%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 25px;
+    border-width: 10%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 20px;
+    text-align: center;  
+    margin-bottom: 5%;
+}
+.text-align{
+    padding-left: 15%;
+}
+.bold{
+    font-weight:bolder;
+    font-size: 300%;
+}
+footer{
+    padding: 2px 30px;
+    background-color:darkslategrey;
+    color: blanchedalmond;
+    font-size: 100%;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 3%;
+}
+.Footer-font{
+    font-size: 200%;
+}
+
