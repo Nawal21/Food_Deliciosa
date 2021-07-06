@@ -3,7 +3,7 @@ body{
     color:black;
     background-image: url(Images/background_header.jpeg);
     background-repeat: no-repeat;
-    background-size: 100% 30%;
+    background-size: 100% 20%;
     margin: 0%;
     
     
@@ -26,46 +26,61 @@ body{
 
 }
 .Slogan{
+    color: #5F6A6A ;
+    font-weight: 900;
+    width: 60%;
+    padding-top: 50%;   
+      }
+   .Slogan img{
+       width: 70% ;
+   }
+.Slogan-Text{
     font-weight: 900;
     font-size: 300%;
 }
-.Green{
+.Green-Fresh{
     color:limegreen;
 }
-.First-Text{
- color: black;
- font-weight: 900;
- width: 60%;
- padding-top: 50%;
- 
- 
- 
-}
-.First-Text img{
-    width: 70% ;
-   
-}
-.Button{
+
+.Order-food-button{
     text-decoration: none;
-    background-image: linear-gradient(forestgreen,lime);
+    background-image: linear-gradient(tomato,orange);
     color: ghostwhite;
-    font-weight: 700;
+    font-weight: 900;
     padding: 10px 30px;
-    border-radius: 5px;
+    border-radius: 30px;
 }
-.About{
+.About-us{
     margin-top: 160px;
     background-image: url(Images/background_middle.jpeg);
     background-size: 100%, 2% ;
     background-repeat: no-repeat;
 }
-.Second{
-    color: black;
- font-weight: 900;
- width: 60%;
+.About-us-heading{
+    color: #5D6D7E  ;
+ font-weight:700;
+ font-size: 130%;
+ width: 50%;
+ padding-top: 2%;
+ padding-right: 20%;
+ padding-left: 10%;
+ padding-bottom: 0%;
 }
-.Second img{
-    width: 70% ;
+.Sushi-eating-girl img{
+    width: 100% ;
+}
+
+.About-us-font{
+    font-size: 80%;
+    padding-bottom: 6%;
+}
+.Contact-Button{
+    text-decoration: none;
+    background-image: linear-gradient(forestgreen,lime);
+    color: ghostwhite;
+    font-weight: 700;
+    padding: 10px 30px;
+    border-radius: 30px;
 }
 .Recipe-colour{
     color:tomato;
@@ -73,8 +88,8 @@ body{
 .Recipes{
     margin-top: 100px;
     margin-bottom: 6%;
-   
 }
+
 .Recipe-font{
     text-align: center;
     font-weight: 700;
@@ -98,7 +113,7 @@ body{
     height: 50%;
     width: 80%;
 }
-.Bottom{
+.Bottom-box{
     margin-left: 8%;
     margin-right: 8%;
     padding-top: 4%;
@@ -110,10 +125,10 @@ body{
     text-align: center;  
     margin-bottom: 5%;
 }
-.text-align{
+.Bottom-box-text{
     padding-left: 15%;
 }
-.bold{
+.Bottom-box-text-bold{
     font-weight:bolder;
     font-size: 300%;
 }
