@@ -1,0 +1,27 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    color:black;
+    background-image: url(Images/background_header.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 40%;
+    background-attachment:scroll;
+    
+}
+.Heading{
+    color:black;
+    padding-top: 30%;
+    padding-left: 150%;
+}
+section{
+    display: flex;
+}
+.First-Text{
+ color: chartreuse;
+ padding-top: 50%;
+ padding left: 
+}
+.First-Text img{
+    height: 95%;
+    width: 75% ;
+   
+}
